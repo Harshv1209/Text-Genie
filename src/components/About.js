@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 // import PropTypes from "prop-types";
 
 export default function About(props) {
@@ -161,7 +161,10 @@ export default function About(props) {
                 {" "}
                 <a href="mailto: harshvaidya345@gmail.com">Mail Us</a> ||{" "}
                 <a href="https://github.com/harshvaid321123">Git-Hub</a> ||
-                <a href="https://www.linkedin.com/in/harsh-vaidya-501332271/"> LinkedIn </a>
+                <a href="https://www.linkedin.com/in/harsh-vaidya-501332271/">
+                  {" "}
+                  LinkedIn{" "}
+                </a>
               </strong>
             </div>
           </div>
@@ -171,5 +174,5 @@ export default function About(props) {
         {/* <button style={sytle} type="button" onClick={togglebtn} className="btn btn-secondary">{btntext}  </button> */}
       </div>
     </div>
-  );
+  )
 }

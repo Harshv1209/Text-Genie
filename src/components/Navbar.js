@@ -1,6 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
-
+import React from "react"
+import PropTypes from "prop-types"
 
 export default function Navbar(props) {
   return (
@@ -47,7 +46,7 @@ export default function Navbar(props) {
                 </a>
               </li> */}
             </ul>
-            
+
             <div
               className={`form-check form-switch text-${
                 props.mode === "light" ? "dark" : "light"
@@ -71,13 +70,13 @@ export default function Navbar(props) {
         </div>
       </nav>
     </div>
-  );
+  )
 }
 Navbar.propTypes = {
   title: PropTypes.string.isRequired,
   about: PropTypes.string.isRequired,
-};
+}
 Navbar.defaultProps = {
   title: "this is title",
   about: "this is about",
-};
+}
